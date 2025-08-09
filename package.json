@@ -13,6 +13,7 @@
     "@nuxt/ui": "3.3.0",
     "@sidebase/nuxt-auth": "1.0.1",
     "@tailwindcss/vite": "^4.1.11",
+    "bcrypt": "^6.0.0",
     "drizzle-orm": "^0.44.4",
     "jsonwebtoken": "^9.0.2",
     "next-auth": "~4.21.1",
