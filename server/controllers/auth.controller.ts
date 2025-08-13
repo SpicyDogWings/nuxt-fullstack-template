@@ -1,5 +1,5 @@
 import * as authService from "../services/auth.service";
-import { createError, type H3Event, getCookies } from "h3";
+import { createError, type H3Event } from "h3";
 
 export interface LoginBody {
   username: string;
