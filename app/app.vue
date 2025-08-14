@@ -1,6 +1,12 @@
+<script setup lang="ts">
+useHead({
+  titleTemplate: (titleChunck) => {
+    return titleChunck ? `${titleChunck} - MiauQuery` : "MiauQuery";
+  },
+});
+</script>
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <UApp>
+    <NuxtPage />
+  </UApp>
 </template>

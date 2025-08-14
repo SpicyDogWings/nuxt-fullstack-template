@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+  --ui-primary: oklch(59.19% 0.045 126);
+  --ui-secondary: oklch(59.29% 0.096 64.02);
+}
+
+.dark {
+  --ui-primary: oklch(86.91% 0.064 125.07);
+  --ui-secondary: oklch(59.29% 0.096 64.02);
+}
+
+* {
+  font-family: "Satoshi", "sans";
+}
+
+@theme {
+  --color-primary-50: oklch(96.38% 0.037 125.17);
+  --color-primary-100: oklch(93.38% 0.069 125.42);
+  --color-primary-200: oklch(86.91% 0.064 125.07);
+  --color-primary-300: oklch(77.94% 0.057 124.4);
+  --color-primary-400: oklch(68.61% 0.05 124.7);
+  --color-primary-500: oklch(59.19% 0.045 126);
+  --color-primary-600: oklch(50.63% 0.037 125.05);
+  --color-primary-700: oklch(41.2% 0.03 124.97);
+  --color-primary-800: oklch(31.59% 0.023 124.8);
+  --color-primary-900: oklch(23.19% 0.018 127.22);
+  --color-primary-950: oklch(17.62% 0.015 126.7);
+  --color-secondary-50: oklch(95.74% 0.017 50.48);
+  --color-secondary-100: oklch(92.53% 0.033 54.18);
+  --color-secondary-200: oklch(84.95% 0.076 58.01);
+  --color-secondary-300: oklch(77.35% 0.125 63.68);
+  --color-secondary-400: oklch(67.79% 0.11 63.6);
+  --color-secondary-500: oklch(59.29% 0.096 64.02);
+  --color-secondary-600: oklch(50.49% 0.082 64.08);
+  --color-secondary-700: oklch(40.92% 0.066 64.09);
+  --color-secondary-800: oklch(32.18% 0.052 62.95);
+  --color-secondary-900: oklch(22.61% 0.037 64.15);
+  --color-secondary-950: oklch(17.75% 0.029 63.1);
+}
