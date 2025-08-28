@@ -20,7 +20,7 @@ function toggleDarkMode() {
     </div>
     <div class="flex justify-start align-center">
       <div class="py-3 px-5 flex flex-col justify-start align-center">
-        <span class="mb-3 w-full text-center text-2xl text-primary font-bold"
+        <span class="mb-3 min-w-48 w-full text-center text-2xl text-primary font-bold"
           >Sistema en blanco</span
         >
         <UNavigationMenu
