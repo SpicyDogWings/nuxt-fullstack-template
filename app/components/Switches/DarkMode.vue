@@ -4,7 +4,12 @@ const colorMode = useColorMode();
 const isDark = computed({
   get: () => colorMode.preference === "dark",
   set: (value: boolean) => {
-    colorMode.preference = value ? "dark" : "light";
+    // Si la preferencia del sistema es oscura, y el usuario no ha cambiado explícitamente, mantén "system"
+    if (value && colorMode.value === 'dark') {
+      colorMode.preference = "system";
+    } else {
+      colorMode.preference = value ? "dark" : "light";
+    }
   },
 });
 </script>
